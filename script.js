@@ -13,8 +13,6 @@ const myApp = new Vue ({
                 this.emailList.push(newEmail)
                 console.log(newEmail);
             });
-            
         };
-
     }
 });
