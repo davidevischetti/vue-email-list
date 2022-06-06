@@ -9,8 +9,8 @@
 <body>
     <div id="app">
 
-        <ul>
-            <li v-for="(email, i) in emailList" :key="i">{{email}}</li>
+        <ul v-if="email !== ''">
+            <li v-for="i in emailList">{{i}}</li>
         </ul>
 
     </div>
